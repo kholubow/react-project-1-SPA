@@ -9,8 +9,30 @@ const navbarDrawer = () => {
     return (
         <div className = { classes.NavbarDrawer } >
 
-            <FontAwesomeIcon icon={ faChevronCircleLeft } 
-                             className={ classes.FontAwesomeArrowLeft } />
+            <div className = { classes.InfoBlock } >
+
+                    <FontAwesomeIcon icon={ faChevronCircleLeft } 
+                                     className={ classes.FontAwesome } />                    
+               
+            </div>
+            <div className = { classes.InfoBlock } >
+
+                    <FontAwesomeIcon icon={ faChevronCircleLeft } 
+                                     className={ classes.FontAwesome } />                    
+               
+            </div>
+            <div className = { classes.InfoBlock } >
+
+                    <FontAwesomeIcon icon={ faChevronCircleLeft } 
+                                     className={ classes.FontAwesome } />                    
+               
+            </div>
+            <div className = { classes.InfoBlock } >
+
+                    <FontAwesomeIcon icon={ faChevronCircleLeft } 
+                                     className={ classes.FontAwesome } />                    
+               
+            </div>
 
         </div>
     );

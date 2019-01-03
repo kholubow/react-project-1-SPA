@@ -10,7 +10,13 @@
     box-sizing: border-box;
 }
 
-.FontAwesomeArrowLeft {
+.FontAwesome {
     font-size: 35px;
     margin-top: 90px;
+}
+
+.InfoBlock {
+    width: 200px;
+    height: 100%;
+    padding-left: 36px;
 }
