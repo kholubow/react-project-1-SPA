@@ -1,0 +1,16 @@
+.NavbarDrawer {
+    position: fixed;
+    width: 800px;
+    max-width: 50%;
+    height: 220px;
+    left: 0;
+    top: 130px;
+    background-color: white;
+    opacity: 0.5;
+    box-sizing: border-box;
+}
+
+.FontAwesomeArrowLeft {
+    font-size: 35px;
+    margin-top: 90px;
+}
