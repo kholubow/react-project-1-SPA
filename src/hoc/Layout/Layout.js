@@ -6,10 +6,15 @@ class Layout extends Component {
     render () {
         return (
             <div className = { classes.Layout }>
-                <Navbar />
-                <p>
+
+                <div className = { classes.Navbar }>
+                    <Navbar />
+                </div>
+                    
+                <div className = { classes.LayoutContent }>
                     { this.props.children }
-                </p>                
+                </div>  
+
             </div>
         );
     }

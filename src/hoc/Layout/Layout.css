@@ -1,3 +1,17 @@
 .Layout {
     margin: 0;
 }
+
+.Navbar {
+    width: 100%;
+    display: inline-block;
+    min-height: 350px;
+    margin-top: 0px;
+}
+
+.LayoutContent {
+    width: 100%;
+    display: inline-block;
+    min-height: 400px;
+    margin-top: 0px;
+}

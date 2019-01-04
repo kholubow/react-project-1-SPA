@@ -1,0 +1,66 @@
+.Logo {
+    height: 280px;
+    width: 345px;
+    margin-left: 82%;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+.Logo img {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1679px) {
+	.Logo {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1663px) {
+	.Logo {
+        margin-left: 81%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+	.Logo {
+        margin-left: 80%;
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 1498px) {
+	.Logo {
+        margin-left: 78%;
+    }
+}
+
+@media screen and (max-width: 1362px) {
+	.Logo {
+        margin-left: 75%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+	.Logo {
+        margin-top: 5%;
+        margin-left: 73%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+	.Logo {
+        margin-left: 68%;
+    }
+}
+
+@media screen and (max-width: 936px) {
+	.Logo img{
+        display: none;
+    }
+    .Logo {
+        width: 0px;
+    }
+}

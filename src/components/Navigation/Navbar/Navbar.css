@@ -3,6 +3,7 @@
 	background: no-repeat;
     min-height: 350px;
     background-size: cover;
+    max-height: 350px;
 }
 
 .NavbarMenu {
