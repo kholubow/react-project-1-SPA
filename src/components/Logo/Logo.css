@@ -64,3 +64,9 @@
         width: 0px;
     }
 }
+
+@media screen and (max-width: 520px) {
+	.Logo {
+        height: 0;
+    }
+}

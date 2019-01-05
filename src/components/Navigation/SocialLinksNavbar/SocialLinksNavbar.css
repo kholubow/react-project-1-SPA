@@ -123,3 +123,9 @@ a {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .SocialNumberMailContactOnLeft {
+        display: none;
+    }
+}

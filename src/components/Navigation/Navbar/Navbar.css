@@ -22,3 +22,9 @@
     z-index: 90;
     border-top: 2px solid sandybrown;  
 }
+
+@media screen and (max-width: 520px) {
+	.NavbarMenu {
+        height: 315px;
+    }
+}

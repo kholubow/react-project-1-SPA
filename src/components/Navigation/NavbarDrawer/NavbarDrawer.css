@@ -142,3 +142,18 @@
         width: 150px;
     }
 }
+
+@media screen and (max-width: 630px) {
+    .InfoBlockText {
+        font-size: 14px;
+    }
+    .InfoBlock {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .NavbarDrawer {
+        display: none;
+    }
+}
