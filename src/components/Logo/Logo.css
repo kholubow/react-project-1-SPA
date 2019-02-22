@@ -1,9 +1,9 @@
 .Logo {
-    height: 280px;
+    height: 241px;
     width: 345px;
-    margin-left: 82%;
+    margin-left: 80%;
     display: inline-block;
-    margin-top: 3%;
+    margin-top: 0;
 }
 
 .Logo img {
@@ -18,41 +18,33 @@
     }
 }
 
-@media screen and (max-width: 1663px) {
-	.Logo {
-        margin-left: 81%;
-    }
-}
-
 @media screen and (max-width: 1600px) {
-	.Logo {
-        margin-left: 80%;
-        margin-top: 4%;
-    }
-}
-
-@media screen and (max-width: 1498px) {
 	.Logo {
         margin-left: 78%;
     }
 }
 
+@media screen and (max-width: 1498px) {
+	.Logo {
+        margin-left: 76%;
+    }
+}
+
 @media screen and (max-width: 1362px) {
 	.Logo {
-        margin-left: 75%;
+        margin-left: 74%;
     }
 }
 
 @media screen and (max-width: 1199px) {
 	.Logo {
-        margin-top: 5%;
-        margin-left: 73%;
+        margin-left: 72%;
     }
 }
 
 @media screen and (max-width: 1110px) {
 	.Logo {
-        margin-left: 68%;
+        margin-left: 67%;
     }
 }
 
@@ -67,6 +59,6 @@
 
 @media screen and (max-width: 520px) {
 	.Logo {
-        height: 0;
+        display: none;
     }
 }

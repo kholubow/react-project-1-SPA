@@ -1,5 +1,5 @@
 .NavbarDrawer {
-    position: fixed;
+    position: absolute;
     width: 800px;
     max-width: 50%;
     height: 220px;
@@ -19,7 +19,7 @@
 .InfoBlock {
     width: 164px;
     height: 100%;
-    padding-left: 36px;
+    padding-left: 33px;
     display: inline-block;
     text-align: center;
 }
@@ -59,28 +59,29 @@
         font-size: 20px;
     }
     .InfoBlock {
-        padding-left: 20px;
+        padding-left: 18px;
     }
 }
 
 @media screen and (max-width: 1472px) {
     .InfoBlock {
-        padding-left: 12px;
+        padding-left: 10px;
     }
 }
 
 @media screen and (max-width: 1408px) {
 	.FontAwesome {
-		font-size: 22px;
+		font-size: 21px;
 	}
 	.InfoBlockNumber {
-		font-size: 22px;
+		font-size: 21px;
     }
     .InfoBlockText {
-        font-size: 19px;
+        font-size: 18px;
     }
     .InfoBlock {
         padding-left: 0px;
+        width: 150px;
     }
 }
 
@@ -95,16 +96,16 @@
         font-size: 17px;
     }
     .InfoBlock {
-        width: 145px;
+        width: 140px;
     }
 }
 
 @media screen and (max-width: 1160px) {
     .InfoBlockText {
-        font-size: 15px;
+        font-size: 14px;
     }
     .InfoBlock {
-        width: 130px;
+        width: 120px;
     }
 }
 

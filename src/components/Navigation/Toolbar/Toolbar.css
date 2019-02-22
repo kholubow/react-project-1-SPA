@@ -9,7 +9,6 @@
 .ToolbarMenu {
     height: 70px;
     width: 100%;
-    position: fixed;
     left: 0;
     display: flex;
     background-color: rgba(61, 59, 59, 0.6);

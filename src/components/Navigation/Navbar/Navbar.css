@@ -9,7 +9,6 @@
 .NavbarMenu {
     height: 70px;
     width: 100%;
-    position: fixed;
     top: 35px;
     left: 0;
     display: flex;

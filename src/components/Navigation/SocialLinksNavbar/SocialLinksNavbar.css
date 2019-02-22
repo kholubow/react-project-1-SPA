@@ -1,8 +1,6 @@
 .SocialLinksNavbar {
     height: 35px;
     width: 100%;
-    position: fixed;
-    top: 0;
     left: 0;
     display: flex;
     opacity: 0.6;
@@ -17,8 +15,8 @@
 .SocialNumberMailContactOnLeft {
     margin-left: 0;
     padding-left: 17px;
-    position: fixed;
     display: flex;
+    position: absolute;
     width: 50%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,18 +33,17 @@
 }
 
 .SocialLinksOnRight {
-    margin-left: 80%;
-    padding-right: 17px;
-    position: fixed;
+    margin-left: 76%;
+    position: absolute;
     display: flex;
-    width: 40%;
+    width: 16%;
     font-size: 25px;
     height: 35px;
 }
 
 .ImageLink {
     height: 100%;
-    width: 5%;
+    width: 17%;
     text-align: center;
     border-radius: 0 0 120px 120px;
 }
@@ -65,29 +62,26 @@ a {
 	.SocialLinksOnRight {
         margin-left: 77%;
     }
-    .ImageLink {
-        width: 6%;
-    }
 }
 
 @media screen and (max-width: 1160px) {
 	.SocialLinksOnRight {
         margin-left: 74%;
     }
-    .ImageLink {
-        width: 8%;
+	.SocialNumberMailContactOnLeft {
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 1115px) {
 	.SocialNumberMailContactOnLeft {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 979px) {
 	.SocialNumberMailContactOnLeft {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
