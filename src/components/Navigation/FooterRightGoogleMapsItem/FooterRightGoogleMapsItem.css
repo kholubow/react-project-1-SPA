@@ -6,8 +6,8 @@
 }
 
 Map {
-    max-width: 40%;
-    max-height: 40%;
+    width: 200px;
+    height: 200px;
 }
 
 @media screen and (max-width: 687px) {
