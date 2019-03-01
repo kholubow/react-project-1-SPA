@@ -89,14 +89,12 @@ a {
 	.SocialNumberMailContactOnLeft {
         width: 60%;
     }
-}
-
-@media screen and (max-width: 880px) {
 	.SocialLinksOnRight {
         margin-left: 70%;
+        width: 21%;
     }
     .ImageLink {
-        width: 10%;
+        width: 20%;
     }
 }
 
@@ -114,7 +112,7 @@ a {
         display: none;
     }
     .SocialNumberMailContactOnLeft {
-        width: 100%;
+        width: 88%;
     }
 }
 
