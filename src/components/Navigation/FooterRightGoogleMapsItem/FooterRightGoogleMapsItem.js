@@ -5,13 +5,15 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 const footerRightGoogleMapsItem = (props) => (
 <div className = { classes.FooterRightGoogleMapsItem }>
 
-        <Map google={props.google} 
-             zoom={14}>
-        
-            <Marker onClick={props.onMarkerClick}
-                    name={'Current location'} />
+        <div className={classes.GoogleMaps}>
+                <Map google={props.google} 
+                zoom={14}>
+                
+                <Marker onClick={props.onMarkerClick}
+                        name={'Current location'} />
 
-        </Map>
+                </Map>        
+        </div>
 
 </div>
 );
