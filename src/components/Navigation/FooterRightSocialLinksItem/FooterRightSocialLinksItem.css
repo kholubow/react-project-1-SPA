@@ -31,6 +31,117 @@ hr {
     margin-top: 1%;
 }
 
+.SocialLinksMainGroup {
+    position: absolute;
+    display: flex;
+    width: 25%;
+    font-size: 36px;
+    color: white;
+    height: 10%;
+}
+
+.SocialLinksSecondGroup {
+    position: absolute;
+    display: flex;
+    width: 25%;
+    font-size: 36px;
+    color: white;
+    height: 10%;
+    margin-top:3%;
+}
+
+.ImageLinkFacebook,
+.ImageLinkTwitter,
+.ImageLinkLinkedin,
+.ImageLinkInstagram,
+.ImageLinkSkype,
+.ImageLinkTwitch,
+.ImageLinkYoutube,
+.ImageLinkGooglePlus,
+.ImageLinkApple,
+.ImageLinkGooglePlay,
+.ImageLinkAppStore,
+.ImageLinkGithub,
+.ImageLinkWordpress,
+.ImageLinkAws
+{
+    height: 44%;
+    width: 12%;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.ImageLinkFacebook:hover {
+    background-color: dodgerblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkTwitter:hover {
+    background-color: cyan;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkLinkedin:hover {
+    background-color: darkblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkInstagram:hover {
+    background-color: orangered;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkSkype:hover {
+    background-color: deepskyblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkTwitch:hover {
+    background-color: blueviolet;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkYoutube:hover {
+    background-color: red;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGooglePlus:hover {
+    background-color: gainsboro;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkApple:hover {
+    background-color: darkgray;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGooglePlay:hover {
+    background-color: lawngreen;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkAppStore:hover {
+    background-color: darkgray;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGithub:hover {
+    background-color: #2a2c30;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkWordpress:hover {
+    background-color: #0142c4;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkAws:hover {
+    background-color: #f49716;
+    transition: all 0.8s ease-in-out;
+}
+
 @media screen and (max-width: 1648px) {
     .FooterRightSocialLinksItem {
         margin-top: 55%;
@@ -49,6 +160,34 @@ hr {
     }
 }
 
+@media screen and (max-width: 1356px) {
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 46%;
+        width: 19%;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 4%;
+        width: 28%;
+    }
+    .SocialLinksMainGroup {
+        width: 28%;
+    }
+}
+
 @media screen and (max-width: 1130px) {
     .FooterRightSocialLinksItem {
         margin-top: 70%;
@@ -62,10 +201,45 @@ hr {
     }
 }
 
+@media screen and (max-width: 1096px) {
+    .SocialLinksSecondGroup {
+        margin-top: 5%;
+        width: 30%;
+    }
+    .SocialLinksMainGroup {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 982px) {
     .FooterRightSocialLinksItem {
         margin-top: 75%;
     }
+    .SocialLinksSecondGroup {
+        margin-top: 6%;
+        font-size: 28px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 28px;
+    }   
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 38%;
+        width: 19%;
+    } 
 }
 
 @media screen and (max-width: 879px) {
