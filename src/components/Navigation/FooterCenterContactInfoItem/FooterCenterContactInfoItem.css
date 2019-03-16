@@ -1,18 +1,61 @@
 .FooterCenterContactInfoItem {
     width: 100%;
     height: 25%;
-    background-color: darkgreen;
     margin-top: 1%;
+    color: #aeb3ba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
-.WorldMap {
-    width: 100%;
-    height: 100%;
+.ContactInfoTextSettings {
+    font-size: 14px;
+    text-transform: lowercase;
+    text-align: justify;
+    color: #aeb3ba;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.WorldMap img {
-    height: 100%;
-    width: 100%;
+.FontAwesomeIcon {
+    font-size: 14px;
+    margin-right: 11px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1679px) {
+    .FontAwesomeIcon {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1597px) {
+    .FontAwesomeIcon {
+        font-size: 12px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .FontAwesomeIcon {
+        font-size: 11px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .FontAwesomeIcon {
+        font-size: 10px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 10px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 687px) {
@@ -21,5 +64,69 @@
         height: 100%;
         margin-left:0;
         margin-top: 0;
+    }
+    .FontAwesomeIcon {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .ContactInfoTextSettings {
+        font-size: 12px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .FontAwesomeIcon {
+        font-size: 11px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 11px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .FontAwesomeIcon {
+        font-size: 10px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 10px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .FontAwesomeIcon {
+        font-size: 9px;
+    }
+    .ContactInfoTextSettings {
+        font-size: 9px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .FontAwesomeIcon {
+        display: none;
+    }
+    .ContactInfoTextSettings {
+        font-size: 10px;
+    }
+    .FooterCenterContactInfoItem {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .FooterCenterContactInfoItem {
+        display: none;
     }
 }
