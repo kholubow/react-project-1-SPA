@@ -15,12 +15,43 @@ import { faAppStore } from '@fortawesome/fontawesome-free-brands';
 import { faGithub } from '@fortawesome/fontawesome-free-brands';
 import { faWordpress } from '@fortawesome/fontawesome-free-brands';
 import { faAws } from '@fortawesome/fontawesome-free-brands';
+import { faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 const footerRightSocialLinksItem = (props) => (
 <div className = { classes.FooterRightSocialLinksItem }>
     <div className = { classes.ChoosableLocalizationLinks }>
-
+         <p>gdzie jesteśmy</p>
+         <hr></hr>
+         <div className = { classes.MapPin1 }>
+               <FontAwesomeIcon icon={ faMapPin }
+                                className = { classes.FontAwesomeIcon } />
+                                Bacon ipsum dolor amet shoulder corned beef beef.
+               <FontAwesomeIcon icon={ faCaretSquareLeft } 
+                                className = { classes.CaretSquareLeftMapPin1 } />
+         </div>
+         <div className = { classes.MapPin2 }>
+               <FontAwesomeIcon icon={ faMapPin }
+                                className = { classes.FontAwesomeIcon } />
+                                Tenderloin chuck chicken beef ribs.
+               <FontAwesomeIcon icon={ faCaretSquareLeft } 
+                                className = { classes.CaretSquareLeftMapPin2 } />
+         </div>
+         <div className = { classes.MapPin3 }>
+               <FontAwesomeIcon icon={ faMapPin }
+                                className = { classes.FontAwesomeIcon } />
+                                Shank venison salami ground round hamburger beef flank.
+               <FontAwesomeIcon icon={ faCaretSquareLeft } 
+                                className = { classes.CaretSquareLeftMapPin3 } />
+         </div>
+         <div className = { classes.MapPin4 }>
+               <FontAwesomeIcon icon={ faMapPin }
+                                className = { classes.FontAwesomeIcon } />
+                                Biltong bresaola brisket short ribs buffalo. Meatball tail beef.
+               <FontAwesomeIcon icon={ faCaretSquareLeft } 
+                                className = { classes.CaretSquareLeftMapPin4 } />
+         </div>
     </div>
     <p>jesteśmy także na</p>
     <hr></hr>

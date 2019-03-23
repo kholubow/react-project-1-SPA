@@ -5,9 +5,66 @@
 }
 
 .ChoosableLocalizationLinks {
-    background-color: blue;
     width: 100%;
     height: 44%;
+}
+
+.MapPin1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: none;
+}
+
+.MapPin2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+.MapPin3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+.MapPin4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+.FontAwesomeIcon {
+    margin-right: 8px;
+}
+
+.CaretSquareLeftMapPin1,
+.CaretSquareLeftMapPin2,
+.CaretSquareLeftMapPin3,
+.CaretSquareLeftMapPin4 {
+    display: none;
+    margin-left: 8px;
+}
+
+.MapPin1:hover .CaretSquareLeftMapPin1,
+.MapPin2:hover .CaretSquareLeftMapPin2,
+.MapPin3:hover .CaretSquareLeftMapPin3,
+.MapPin4:hover .CaretSquareLeftMapPin4 {
+    display: inline-block;
+}
+
+.MapPin1:hover,
+.MapPin2:hover,
+.MapPin3:hover,
+.MapPin4:hover {
+    background: 
+        linear-gradient(rgba(202, 129, 50, 0.582), rgba(32, 111, 201, 0.671));
 }
 
 p {
@@ -147,6 +204,15 @@ hr {
     }
 }
 
+@media screen and (max-width: 1530px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 11px;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .FooterRightSocialLinksItem {
         margin-top: 60%;
@@ -187,6 +253,15 @@ hr {
     }
 }
 
+@media screen and (max-width: 1169px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 1130px) {
     .FooterRightSocialLinksItem {
         margin-top: 70%;
@@ -207,6 +282,15 @@ hr {
     }
     .SocialLinksMainGroup {
         width: 30%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 9px;
     }
 }
 
@@ -247,6 +331,15 @@ hr {
     }
 }
 
+@media screen and (max-width: 877px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 812px) {
     .SocialLinksSecondGroup {
         margin-top: 8%;
@@ -260,6 +353,15 @@ hr {
 @media screen and (max-width: 803px) {
     .FooterRightSocialLinksItem {
         margin-top: 85%;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: none;
     }
 }
 
@@ -318,6 +420,28 @@ hr {
     {
         height: 75%;
     } 
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: inline-block;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .ChoosableLocalizationLinks {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 591px) {
