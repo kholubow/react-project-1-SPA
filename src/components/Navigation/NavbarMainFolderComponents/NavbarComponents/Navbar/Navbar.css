@@ -1,0 +1,40 @@
+/*-------------------------------------
+            Main class
+-------------------------------------*/
+.Navbar {
+    color:black;
+	background: no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    max-height: 350px;
+}
+
+
+/*-------------------------------------
+            Navigation menu
+-------------------------------------*/
+.NavbarMenu {
+    height: 70px;
+    width: 100%;
+    top: 35px;
+    left: 0;
+    display: flex;
+    opacity: 0.6;
+    background-color: rgb(61, 59, 59);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    border-top: 2px solid sandybrown;  
+}
+
+
+/*-------------------------------------
+                responsive
+-------------------------------------*/
+@media screen and (max-width: 520px) {
+	.NavbarMenu {
+        height: 315px;
+    }
+}

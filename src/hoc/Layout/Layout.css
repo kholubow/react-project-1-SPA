@@ -1,7 +1,14 @@
+/*-------------------------------------
+                main class
+-------------------------------------*/
 .Layout {
     margin: 0;
 }
 
+
+/*-------------------------------------
+sub main class for navbar components / elements
+-------------------------------------*/
 .Navbar {
     width: 100%;
     display: inline-block;
@@ -9,6 +16,10 @@
     margin-top: 0px;
 }
 
+
+/*-------------------------------------
+sub main class for page content components / elements 
+-------------------------------------*/
 .LayoutContent {
     width: 100%;
     display: inline-block;
@@ -16,6 +27,10 @@
     margin-top: 0px;
 }
 
+
+/*-------------------------------------
+sub main class for toolbar components / elements
+-------------------------------------*/
 .Toolbar {
     width: 100%;
     margin-top: 0px;
@@ -23,6 +38,10 @@
     min-height: 120px;
 }
 
+
+/*-------------------------------------
+sub main class for footer components / elements
+-------------------------------------*/
 .Footer {
     width: 100%;
     margin-top: 0px;

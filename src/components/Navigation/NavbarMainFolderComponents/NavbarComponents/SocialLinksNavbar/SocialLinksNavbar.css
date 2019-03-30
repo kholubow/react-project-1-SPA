@@ -1,0 +1,142 @@
+/*-------------------------------------
+                Main class
+-------------------------------------*/
+.SocialLinksNavbar {
+    height: 35px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    opacity: 0.6;
+    background-color: rgb(61, 59, 59);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;    
+}
+
+
+/*-------------------------------------
+sub main class for content on left side
+-------------------------------------*/
+.SocialNumberMailContactOnLeft {
+    margin-left: 0;
+    padding-left: 17px;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* settings for font awesome */
+.FontAwesomeIcon {
+    margin-right: 5px;
+}
+
+/* vertical lines between content */
+.FontAwesomeLinesVertical {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+/*-------------------------------------
+sub main class for content on right side
+-------------------------------------*/
+.SocialLinksOnRight {
+    margin-left: 76%;
+    position: absolute;
+    display: flex;
+    width: 16%;
+    font-size: 25px;
+    height: 35px;
+}
+
+/* Settings for font icon links */
+.ImageLink {
+    height: 100%;
+    width: 17%;
+    text-align: center;
+    border-radius: 0 0 120px 120px;
+}
+
+/* settings for font icon links when some is hover by cursor */
+.ImageLink:hover {
+    background-color: aqua;
+    opacity: 0.7;
+}
+
+/* color of the font icon links */
+a {
+    color: white;
+}
+
+
+/*-------------------------------------
+                responsive
+-------------------------------------*/
+@media screen and (max-width: 1408px) {
+	.SocialLinksOnRight {
+        margin-left: 77%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+	.SocialLinksOnRight {
+        margin-left: 74%;
+    }
+	.SocialNumberMailContactOnLeft {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+	.SocialNumberMailContactOnLeft {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 979px) {
+	.SocialNumberMailContactOnLeft {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 911px) {
+	.SocialNumberMailContactOnLeft {
+        width: 60%;
+    }
+	.SocialLinksOnRight {
+        margin-left: 70%;
+        width: 21%;
+    }
+    .ImageLink {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+	.SocialNumberMailContactOnLeft {
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 734px) {
+	.SocialLinksOnRight {
+        display: none;
+    }
+    .ImageLink {
+        display: none;
+    }
+    .SocialNumberMailContactOnLeft {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .SocialNumberMailContactOnLeft {
+        display: none;
+    }
+}

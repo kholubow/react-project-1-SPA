@@ -1,0 +1,19 @@
+/*-------------------------------------
+            Footer main class
+-------------------------------------*/
+.Footer {
+    height: 600px;
+    background-color: #323233;
+    width: 100%;
+    display: flex;
+}
+
+
+/*-------------------------------------
+                responsive
+-------------------------------------*/
+@media screen and (max-width: 687px) {
+    .Footer {
+        display: block;
+    }
+}

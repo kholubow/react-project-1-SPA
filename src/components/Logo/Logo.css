@@ -1,3 +1,6 @@
+/*-------------------------------------
+            Logo main class
+-------------------------------------*/
 .Logo {
     height: 241px;
     width: 345px;
@@ -6,11 +9,16 @@
     margin-top: 0;
 }
 
+/* Logo img settings */
 .Logo img {
     height: 100%;
     width: 100%;
 }
 
+
+/*-------------------------------------
+                responsive
+-------------------------------------*/
 @media screen and (max-width: 1679px) {
 	.Logo {
         width: 300px;

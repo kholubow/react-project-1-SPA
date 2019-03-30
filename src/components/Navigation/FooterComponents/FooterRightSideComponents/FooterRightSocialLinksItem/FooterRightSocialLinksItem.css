@@ -1,0 +1,589 @@
+/*-------------------------------------
+FooterRightSocialLinksItem main class
+-------------------------------------*/
+.FooterRightSocialLinksItem {
+    width: 100%;
+    margin-top: 50%;
+    height: 42%;
+}
+
+
+/*-------------------------------------
+Sub main class - elements under Google Maps
+-------------------------------------*/
+.ChoosableLocalizationLinks {
+    width: 100%;
+    height: 44%;
+}
+
+
+/*-------------------------------------
+Settings for choosable localization links
+-------------------------------------*/
+.MapPin1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: none;
+}
+
+.MapPin2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+.MapPin3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+.MapPin4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: none;
+}
+
+
+/*-------------------------------------
+Global settings for FontAwesomeIcons
+-------------------------------------*/
+.FontAwesomeIcon {
+    margin-right: 8px;
+}
+
+
+/*-------------------------------------
+Arrows on right side of localization links
+-------------------------------------*/
+.CaretSquareLeftMapPin1,
+.CaretSquareLeftMapPin2,
+.CaretSquareLeftMapPin3,
+.CaretSquareLeftMapPin4 {
+    display: none;
+    margin-left: 8px;
+}
+
+/* Settings for arrows when cursor is hover some */
+.MapPin1:hover .CaretSquareLeftMapPin1,
+.MapPin2:hover .CaretSquareLeftMapPin2,
+.MapPin3:hover .CaretSquareLeftMapPin3,
+.MapPin4:hover .CaretSquareLeftMapPin4 {
+    display: inline-block;
+}
+
+
+/*-------------------------------------
+Settings for choosable localization links when cursor is hover some
+-------------------------------------*/
+.MapPin1:hover,
+.MapPin2:hover,
+.MapPin3:hover,
+.MapPin4:hover {
+    background: 
+        linear-gradient(rgba(202, 129, 50, 0.582), rgba(32, 111, 201, 0.671));
+}
+
+
+/*-------------------------------------
+Global settings for head titles selectors
+-------------------------------------*/
+/* text settings */
+p {
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* text underline settings */
+hr {
+    height: 4px;
+    background-color: #9d9ea0;
+    width: 24%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-top: 1%;
+}
+
+
+/*-------------------------------------
+Main class for first group of social links
+-------------------------------------*/
+.SocialLinksMainGroup {
+    position: absolute;
+    display: flex;
+    width: 25%;
+    font-size: 36px;
+    color: white;
+    height: 10%;
+}
+
+
+/*-------------------------------------
+Main class for second group of social links
+-------------------------------------*/
+.SocialLinksSecondGroup {
+    position: absolute;
+    display: flex;
+    width: 25%;
+    font-size: 36px;
+    color: white;
+    height: 10%;
+    margin-top:3%;
+}
+
+
+/*-------------------------------------
+    Settings for image social links
+-------------------------------------*/
+.ImageLinkFacebook,
+.ImageLinkTwitter,
+.ImageLinkLinkedin,
+.ImageLinkInstagram,
+.ImageLinkSkype,
+.ImageLinkTwitch,
+.ImageLinkYoutube,
+.ImageLinkGooglePlus,
+.ImageLinkApple,
+.ImageLinkGooglePlay,
+.ImageLinkAppStore,
+.ImageLinkGithub,
+.ImageLinkWordpress,
+.ImageLinkAws
+{
+    height: 44%;
+    width: 12%;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+/* Settings for image social links when some is hover by cursor */
+.ImageLinkFacebook:hover {
+    background-color: dodgerblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkTwitter:hover {
+    background-color: cyan;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkLinkedin:hover {
+    background-color: darkblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkInstagram:hover {
+    background-color: orangered;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkSkype:hover {
+    background-color: deepskyblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkTwitch:hover {
+    background-color: blueviolet;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkYoutube:hover {
+    background-color: red;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGooglePlus:hover {
+    background-color: gainsboro;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkApple:hover {
+    background-color: darkgray;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGooglePlay:hover {
+    background-color: lawngreen;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkAppStore:hover {
+    background-color: darkgray;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkGithub:hover {
+    background-color: #2a2c30;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkWordpress:hover {
+    background-color: #0142c4;
+    transition: all 0.8s ease-in-out;
+}
+
+.ImageLinkAws:hover {
+    background-color: #f49716;
+    transition: all 0.8s ease-in-out;
+}
+
+
+/*-------------------------------------
+                responsive
+-------------------------------------*/
+@media screen and (max-width: 1648px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 65%;
+    }
+}
+
+@media screen and (max-width: 1356px) {
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 46%;
+        width: 19%;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 4%;
+        width: 28%;
+    }
+    .SocialLinksMainGroup {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 70%;
+    }
+    hr {
+        height: 3px;
+        width: 34%;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .SocialLinksSecondGroup {
+        margin-top: 5%;
+        width: 30%;
+    }
+    .SocialLinksMainGroup {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 75%;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 6%;
+        font-size: 28px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 28px;
+    }   
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 38%;
+        width: 19%;
+    } 
+}
+
+@media screen and (max-width: 879px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (max-width: 877px) {
+    .MapPin1,
+    .MapPin2,
+    .MapPin3,
+    .MapPin4 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .SocialLinksSecondGroup {
+        margin-top: 8%;
+        width: 32%;
+    }
+    .SocialLinksMainGroup {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 803px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 85%;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 90%;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .FooterRightSocialLinksItem {
+        margin-top: 95%;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 9%;
+        font-size: 24px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .FooterRightSocialLinksItem {
+        width: 40%;
+        height: 100%;
+        margin-left:55%;
+        margin-top: 0;
+    }
+    hr {
+        width: 40%;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 6%;
+        width: 38%;
+        height: 4%;
+    }
+    .SocialLinksMainGroup {
+        width: 38%;
+        height: 4%;
+    }
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 75%;
+    } 
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: inline-block;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .MapPin1:hover .CaretSquareLeftMapPin1,
+    .MapPin2:hover .CaretSquareLeftMapPin2,
+    .MapPin3:hover .CaretSquareLeftMapPin3,
+    .MapPin4:hover .CaretSquareLeftMapPin4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .SocialLinksSecondGroup {
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .ChoosableLocalizationLinks {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .ImageLinkFacebook,
+    .ImageLinkTwitter,
+    .ImageLinkLinkedin,
+    .ImageLinkInstagram,
+    .ImageLinkSkype,
+    .ImageLinkTwitch,
+    .ImageLinkYoutube,
+    .ImageLinkGooglePlus,
+    .ImageLinkApple,
+    .ImageLinkGooglePlay,
+    .ImageLinkAppStore,
+    .ImageLinkGithub,
+    .ImageLinkWordpress,
+    .ImageLinkAws 
+    {
+        height: 0;
+    } 
+    .SocialLinksSecondGroup {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .SocialLinksSecondGroup {
+        margin-top: 9%;
+        font-size: 20px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .SocialLinksSecondGroup {
+        margin-top: 11%;
+        font-size: 18px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    hr {
+        width: 48%;
+        margin-left: 26%;
+    }
+    p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .SocialLinksSecondGroup {
+        margin-top: 13%;
+        font-size: 13px;
+    }
+    .SocialLinksMainGroup {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 311px) {
+    .SocialLinksSecondGroup {
+        display: none;
+    }
+    .SocialLinksMainGroup {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 273px) {
+    p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 239px) {
+    p {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+}
